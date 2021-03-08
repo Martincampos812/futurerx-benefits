@@ -1,0 +1,331 @@
+@import "./../../../../../../assets/style.scss";
+
+.commercial-mm-pa-root {
+  .mm-pa-root {
+    background-color: #fff;
+    .details-top {
+      .dynamic-row-addition {
+        margin: 5px 0 0 0;
+        text-align: end;
+        cursor: pointer;
+        .__add-new-row {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          color: #707683;
+          border-bottom: 1px dashed #707683;
+        }
+      }
+      .grid-root {
+        .ant-table.ant-table-bordered {
+          table {
+            thead {
+              tr {
+                th {
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 12px;
+                }
+              }
+            }
+            tbody {
+              tr {
+                td {
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .mm-configure {
+      .header {
+        display: flex;
+        justify-content: space-between;
+        .mini-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+
+      &-grid {
+        // ####### START TABLE ##########
+        .frx-grid-container {
+          .frx-grid {
+            .frx-grid__grid-block {
+              padding: 0;
+
+              .frx-grid__grid-block__table-block {
+                .ant-table {
+                  .ant-table-header {
+                    border: 1px solid #e5e5e5;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    // background-color: #fff;
+                  }
+                  .ant-table-body > table {
+                    border-spacing: 0;
+                    // background-color: #fff;
+                  }
+                  .ant-table-body > table > tbody > tr > td {
+                    border-radius: 0 !important;
+                    // background-color: #fff;
+                  }
+
+                  .ant-table-body > table > tbody > tr > td:first-child {
+                    border-right: 1px solid #e5e5e5;
+                  }
+
+                  .ant-table-body > table > tbody > tr > td:nth-child(2) {
+                    border-right: 1px solid #e5e5e5;
+                  }
+
+                  .ant-table-body > thead {
+                    border-radius: 0;
+                    // background-color: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+        // ####### END TABLE ##########
+      }
+    }
+    .modify-panel {
+      padding: 0 20px;
+      display: flex;
+      border-bottom: 1px solid #e5e5e5;
+      .icon {
+        display: flex;
+        height: 50px;
+        padding-right: 18px;
+        border-right: 1px solid #e5e5e5;
+        align-items: center;
+        span {
+          display: block;
+          border-radius: 50%;
+          height: 31px;
+          width: 31px;
+          background: #1fbbc4;
+          color: white;
+          font-size: 16px;
+          line-height: 31px;
+          text-align: center;
+        }
+      }
+      .switch-box {
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+        border-right: 1px solid #e5e5e5;
+        .label {
+          font-size: 14px;
+          text-transform: uppercase;
+          color: #707683;
+        }
+      }
+      .mini-tabs {
+        display: flex;
+        padding: 0 40px;
+        border-right: 1px solid #e5e5e5;
+        align-items: center;
+        .frx-mini-tabs-root {
+          position: unset;
+          border-bottom: 0px solid #e5e5e5;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          box-sizing: border-box;
+          box-shadow: none;
+          background: #ffffff;
+          padding: 0;
+          min-width: 122px;
+          min-height: 30px;
+          .frx-mini-tabs-root__tabs {
+            background-color: #ffffff;
+            box-shadow: none;
+            border: 1px solid #2055b5;
+            flex-direction: row;
+            border-radius: 4px;
+            padding: 3px;
+            min-height: 24px;
+            min-width: 61px;
+            width: max-content;
+            .frx-mini-tabs-root__tabs__tab {
+              padding: 0;
+              font-size: 12px;
+              min-height: 24px;
+              min-width: 61px;
+              font-weight: bold;
+              color: #666666;
+              text-transform: capitalize;
+              opacity: unset;
+              border-radius: 2px;
+            }
+          }
+        }
+      }
+    }
+    .header-with-notes {
+      position: relative;
+      svg.note-icon {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    .mm-configure-pa-auth-grid {
+      .font-style {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #1d54b4;
+      }
+      .fancy {
+        margin: 10px 0 0 0;
+        &-font {
+          font-family: Roboto;
+          font-style: italic;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          color: #707683;
+        }
+      }
+      .mini-flex-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+
+        .input-groups {
+          margin: 10px 20px 10px 0;
+          .uppercase {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #707683;
+            .asterisk {
+              color: #e76262;
+            }
+          }
+
+          .input-element {
+            margin-top: 6px;
+            .pointer {
+              cursor: pointer;
+            }
+            .bordered {
+              padding: 0 10px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 35px;
+              width: 387px;
+
+              background: #ffffff;
+              border: 1px solid #c4c4c4;
+              box-sizing: border-box;
+              border-radius: 3px;
+              .inner-font {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #1d54b4;
+                border-bottom: 1px dashed #1d54b4;
+              }
+
+              .no-inner-font {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 20px;
+                color: #323c47;
+              }
+            }
+          }
+        }
+      }
+      .button-container-root {
+        display: flex;
+        justify-content: flex-end;
+        .Button {
+          width: auto;
+          padding: 10px 18px;
+
+          width: 129px;
+          height: 34px;
+
+          background: #1f55b6;
+          border-radius: 5px;
+
+          outline: none;
+          width: 129px;
+
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          // line-height: 14px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.01em;
+          color: #ffffff;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          margin: 10px 0px 10px 10px;
+        }
+        .white-bg-btn {
+          .Button {
+            width: auto;
+            align-items: center;
+            padding: 10px 20px;
+            width: 67px;
+            height: 34px;
+            background: #ffffff;
+            border: 1px solid #1d54b4;
+            box-sizing: border-box;
+            border-radius: 5px;
+            outline: none;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.01em;
+
+            color: #1d54b4;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 10px 0px;
+          }
+        }
+      }
+    }
+  }
+}

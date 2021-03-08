@@ -1,0 +1,125 @@
+.general-information-wrapper {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  .heading-wrapper {
+    border-bottom: 1px solid #e5e5e5;
+    h4 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #1d54b4;
+      padding: 10px;
+    }
+  }
+
+  .fields-wrapper {
+    padding: 10px;
+    .field-group {
+      margin-left: 5px;
+      margin-bottom: 20px;
+      label {
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #707683;
+        margin-bottom: 5px;
+
+        .star {
+          color: red;
+          padding: 3px;
+        }
+      }
+
+      input {
+        width: 386px;
+        height: 35px;
+        border-radius: 3px;
+        border: 1px solid #c4c4c4;
+      }
+
+      .benefit-id {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #707683;
+      }
+
+      .dialog-div-wrapper {
+        border: 1px solid #c4c4c4;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        align-items: center;
+        height: 35px;
+
+        span {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 35px;
+          letter-spacing: 0.1px;
+          color: #1d54b4;
+          text-decoration: underline dashed;
+        }
+      }
+    }
+
+    .benefit-dropdown {
+      width: 387px;
+
+      .ant-select-selector {
+        height: 35px;
+      }
+    }
+
+    .benefit-effective-date {
+      width: 385px;
+      height: 35px;
+
+      input {
+        border: none;
+      }
+    }
+  }
+
+  .reporting-tag-icon {
+    position: absolute;
+    right: 50px;
+    top: 35px;
+  }
+  .root--ant-select-tag {
+    width: 94%;
+    cursor: inherit;
+    .ant-select-selection-placeholder {
+      color: #1d54b4;
+      font-weight: 500;
+      font-size: 12px;
+      text-decoration: underline dashed;
+      cursor: pointer;
+    }
+
+    .ant-select-selector {
+      height: 35px;
+    }
+  }
+  .ability-to-add-tags-edit-icon {
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+  }
+
+  .add-tag {
+    color: #1d54b4;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .reporting-tag-group {
+    position: relative;
+  }
+}

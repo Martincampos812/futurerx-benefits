@@ -1,0 +1,40 @@
+export const FormularyBenefitsConfigurationMock = (): any => {
+  return [
+    {
+      id: 1,
+      key: 1,
+      labelName: "Taltz SOAJ 80 MG/ML",
+      ndc: "0093-5056-98",
+      criteriaName: "Add/Remove List 1",
+      tier: "1",
+      rxcui: "404711",
+      ddid: "12345",
+      gpi: "902505540",
+      additionalCriteria: true,
+    },
+    {
+      id: 2,
+      key: 2,
+      labelName: "Taltz SOAJ 80 MG/ML",
+      ndc: "0093-5056-98",
+      criteriaName: "Add/Remove List 1",
+      tier: "1",
+      rxcui: "404711",
+      ddid: "12345",
+      gpi: "902505540",
+      additionalCriteria: false,
+    },
+    {
+      id: 3,
+      key: 3,
+      labelName: "Taltz SOAJ 80 MG/ML",
+      ndc: "0093-5056-98",
+      criteriaName: "Add/Remove List 1",
+      tier: "1",
+      rxcui: "404711",
+      ddid: "12345",
+      gpi: "902505540",
+      additionalCriteria: true,
+    },
+  ];
+};

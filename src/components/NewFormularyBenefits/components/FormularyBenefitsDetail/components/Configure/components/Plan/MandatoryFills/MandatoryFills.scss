@@ -1,0 +1,130 @@
+.formulary-mandotary-fills-grid {
+  
+
+   
+
+    margin-top: 15px;
+    .bordered {
+        border: 1px solid#e5e5e5;
+        border-radius: 5px;
+   
+    .formulary-grid-panel-header-container {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid#e5e5e5;
+      position: relative;
+
+      .div-del-container {
+        border: 1px solid #c4c4c4;
+        box-sizing: border-box;
+        border-radius: 3px;
+        // padding: 0px 10px;
+        // display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        align-items: center;
+        height: 35px;
+        padding: 0px 21px 0px 20px;
+        margin-right: 10px;
+      }
+    }
+  
+    .formulary-grid-panel-header {
+      border-bottom: 0px;
+    }
+    .container-title {
+        color: #717783;
+        font-weight: 100;
+        font-family: Roboto;
+        font-style: normal;
+    }
+.row-height {
+    margin-top: 10px;
+
+    .field-group {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        label {
+          display: block;
+          font-size: 12px;
+          line-height: 20px;
+          text-transform: uppercase;
+          color: #707683;
+          margin-bottom: 5px;
+  
+          .star {
+            color: red;
+            padding: 3px;
+          }
+        }
+  
+        input {
+          width: 386px;
+          height: 35px;
+          border-radius: 3px;
+          border: 1px solid #c4c4c4;
+        }
+  
+  
+        .dialog-div-wrapper {
+          border: 1px solid #c4c4c4;
+          box-sizing: border-box;
+          border-radius: 3px;
+          padding: 0px 10px;
+          display: flex;
+          justify-content: space-between;
+          cursor: pointer;
+          align-items: center;
+          height: 35px;
+  
+          span {
+            font-weight: 100;
+            font-size: 12px;
+            line-height: 35px;
+            letter-spacing: 0.1px;
+            // color: #1d54b4;
+            // text-decoration: underline dashed;
+          }
+        }
+
+        .fills-div-wrapper {
+            border: 1px solid #c4c4c4;
+          box-sizing: border-box;
+          border-radius: 3px;
+          padding: 0px 10px;
+          display: flex;
+          justify-content: space-between;
+          cursor: pointer;
+          align-items: center;
+          height: 35px;
+          margin-top: -20px;
+  
+          span {
+            font-weight: 100;
+            font-size: 12px;
+            line-height: 35px;
+            letter-spacing: 0.1px;
+            // color: #1d54b4;
+            // text-decoration: underline dashed;
+          }
+        }
+      }
+  
+}
+    .otc-benefits-input {
+ border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    height: 30px;
+    }
+}
+
+svg {
+    margin: 10px 0px 20px;
+    cursor: pointer;
+  }
+   
+  }
+  
+ 
+ 
+  

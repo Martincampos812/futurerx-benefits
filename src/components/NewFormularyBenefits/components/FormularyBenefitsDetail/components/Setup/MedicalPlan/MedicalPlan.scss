@@ -1,0 +1,38 @@
+.medical-plan-wrapper {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 10px;
+  .heading-wrapper {
+    border-bottom: 1px solid #e5e5e5;
+    h4 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #1d54b4;
+      padding: 10px;
+    }
+  }
+
+  .fields-wrapper {
+    padding: 10px;
+    .field-group {
+      margin-left: 5px;
+      margin-bottom: 20px;
+      .labels {
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #707683;
+        margin-bottom: 5px;
+
+        .star {
+          color: red;
+          padding: 3px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+.benefit-version-drop-down {
+  width: 205px !important;
+}
+.formulary-versions {
+  .ant-select-selector {
+    background-color: #fff5f0 !important;
+    height: 100% !important;
+    padding-top: 2.25px !important;
+    border-right: 1px solid #f65a1c !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+
+    .ant-select-selection-item,
+    .ant-select-selection-placeholder {
+      color: #f65a1c !important;
+      text-decoration: underline;
+    }
+  }
+}
+
+.benefits-top-description {
+  margin-top: 20px;
+
+  p {
+    font-weight: 400;
+  }
+}
+
+.drug-detail-top {
+  .commercial-tag {
+    background: #707683;
+    margin-left: 10px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    line-height: 24px;
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .breadcrum-icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .audit-icon.svg-icon,
+  .note-icon.svg-icon,
+  .help-icon.svg-icon {
+    padding: 8px 13px 3px 13px;
+    border: 1px solid #c2cfe0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    width: 48px;
+    text-align: center;
+  }
+
+  .menu-date-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.benefit-top-form {
+  label {
+    display: block;
+    font-size: 12px;
+    color: #707683;
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    .astrict {
+      color: red;
+    }
+  }
+
+  .benefit-top-input-fields {
+    width: 355px !important;
+    border-radius: 3px !important;
+    height: 35px !important;
+    border: 1px solid #c4c4c4 !important;
+  }
+
+  .benefit-top-select {
+    width: 355px !important;
+    border-radius: 3px !important;
+    height: 35px !important;
+  }
+
+  .benefits-top-date,
+  .benefit-top-select,
+  .benefit-top-input-fields {
+    margin-bottom: 20px;
+  }
+
+  .benefits-top-date-wrapper {
+    display: flex;
+  }
+
+  .benefits-top-date {
+    width: 170px !important;
+    height: 35px;
+    border-radius: 3px !important;
+    margin-right: 15px;
+  }
+
+  .group-tag {
+    position: relative;
+  }
+
+  .purple {
+    background: #684999;
+    width: 72px;
+    border-radius: 10px;
+  }
+
+  .dark-grey {
+    background: #707683;
+    width: 50px;
+    border-radius: 15px;
+  }
+
+  .longer-tag {
+    width: 147px;
+    margin: 5px;
+    margin-left: 0;
+    padding: 0px 10px;
+    height: 22px;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+
+    .category-text-font {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+
+  .reporting-tags-edit-icon {
+    position: absolute;
+    top: 32px;
+    right: 45px;
+  }
+
+  .grey {
+    background: #e5e5e5;
+    width: 133px;
+    border-radius: 5px;
+
+    span.category-text-font {
+      color: #323c47;
+    }
+  }
+
+  .border-round {
+    margin: 5px;
+    margin-left: 0;
+    padding: 0px 10px;
+    height: 22px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+  }
+
+  .border-round .category-text-font {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+
+.breadcrum-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #323c47;
+}

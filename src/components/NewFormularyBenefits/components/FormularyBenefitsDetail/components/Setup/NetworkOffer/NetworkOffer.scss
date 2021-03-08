@@ -1,0 +1,169 @@
+.network-offer-wrapper {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 10px;
+  .heading-wrapper {
+    border-bottom: 1px solid #e5e5e5;
+    h4 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #1d54b4;
+      padding: 10px;
+    }
+  }
+
+  .grid-container-wrapper {
+    padding: 10px;
+
+    svg {
+      margin: 10px 0px 20px;
+      cursor: pointer;
+    }
+
+    .ant-checkbox-inner {
+      width: 17px;
+      height: 17px;
+    }
+
+    .input-text {
+      width: 170px;
+      height: 35px;
+      border: 1px solid #e5e5e5;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+    .network-expanded-continer {
+      h4 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #707683;
+      }
+      h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #1d54b4;
+        text-transform: uppercase;
+      }
+
+      .network-expanded-table {
+        width: 70%;
+        .status-field-block__container {
+          width: 42px;
+          height: 24px;
+        }
+        .status-field-block__text {
+          font-size: 12px !important;
+          line-height: 24px !important;
+        }
+
+        .frx-grid-container .frx-grid .frx-grid__grid-block {
+          padding-top: 0px !important;
+          padding-bottom: 0px !important;
+        }
+
+        .frx-grid-settings-header-cell {
+          display: none;
+        }
+        .frx-grid__grid-block__table-block .frx-grid-header-cell__header-name {
+          color: #707683;
+          font-weight: normal;
+        }
+        .ant-table-body table {
+          width: inherit !important;
+        }
+        .ant-table table {
+          border-collapse: collapse;
+          width: inherit;
+        }
+
+        .frx-grid-container
+          .frx-grid
+          .frx-grid__grid-block
+          .frx-grid__grid-block__table-block
+          .ant-table
+          .ant-table-body
+          > table {
+          border-collapse: unset;
+          border-spacing: 0px 0px;
+        }
+
+        .frx-grid-container
+          .frx-grid
+          .frx-grid__grid-block
+          .frx-grid__grid-block__table-block
+          .ant-table {
+          .ant-checkbox-checked .ant-checkbox-inner {
+            border: 2px solid #1d54b4;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background-color: #1d54b4;
+          }
+        }
+        .frx-grid-container
+          .frx-grid
+          .frx-grid__grid-block
+          .frx-grid__grid-block__table-block
+          .ant-table
+          .ant-table-header
+          .ant-table-thead
+          > tr
+          > th:nth-child(2) {
+          border-right: 1px solid #e5e5e5;
+        }
+
+        .frx-grid-container
+          .frx-grid
+          .frx-grid__grid-block
+          .frx-grid__grid-block__table-block
+          .ant-table
+          .ant-table-header {
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+        }
+
+        .frx-grid-container
+          .frx-grid
+          .frx-grid__grid-block
+          .frx-grid__grid-block__table-block
+          .ant-table
+          .ant-table-body
+          .ant-table-tbody
+          > tr
+          > td:last-child {
+          border-radius: 0px 0px;
+        }
+
+        .ant-table-header table {
+          background: #fafafa;
+        }
+        .ant-table-thead tr .ant-table-cell-fix-left-last {
+          left: inherit !important;
+          text-align: center;
+        }
+
+        .frx-grid-container
+          .frx-grid
+          .frx-grid__grid-block
+          .frx-grid__grid-block__table-block
+          .ant-table
+          .ant-table-body
+          .ant-table-tbody
+          > tr
+          > td {
+          border-top: none;
+        }
+      }
+    }
+  }
+}

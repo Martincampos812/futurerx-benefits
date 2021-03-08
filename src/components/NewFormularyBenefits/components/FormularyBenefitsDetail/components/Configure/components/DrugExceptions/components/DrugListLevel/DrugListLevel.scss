@@ -1,0 +1,95 @@
+.drug-list-level-wrapper {
+  padding: 10px;
+  .included-excluded-list {
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0px 5px;
+
+    .included-excluded-list-add-btn {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+
+      .tick-close-icon-wrapper,
+      .add-drug-down-arrow,
+      .subtract-eye-icon-list {
+        display: flex;
+        align-items: center;
+      }
+
+      .add-drug-down-arrow {
+        svg {
+          margin: 0px 5px;
+        }
+      }
+
+      .panel.header {
+        border: none;
+        height: 0px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #323c47;
+        padding: 0px 10px;
+        text-transform: capitalize;
+      }
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #323c47;
+    }
+
+    .exclude-span {
+      margin-left: 10px;
+    }
+
+    .all-include-exclude-list {
+      padding-right: 30px;
+      padding-top: 10px;
+      max-height: 240px;
+      height: 240px;
+      overflow: scroll;
+
+      svg {
+        cursor: pointer;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px !important;
+      }
+
+      li {
+        list-style: none;
+
+        h4 {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          color: #323c47;
+          margin-bottom: 4px;
+        }
+
+        h5 {
+          font-size: 12px;
+          line-height: 14px;
+          font-weight: normal;
+          color: #707683;
+        }
+      }
+
+      .subtract-eye-icon-list {
+        .subtract-icon {
+          margin: 0px 10px;
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+}

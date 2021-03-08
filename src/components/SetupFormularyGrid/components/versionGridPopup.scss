@@ -1,0 +1,64 @@
+.version-grid-container {
+    padding: 10px;
+
+    .version-grid-date-btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px;
+    
+        .btn-icon {
+          padding-top: 20px;
+    
+          button {
+            margin-right: 0px !important;
+            width: 67px;
+            height: 34px;
+          }
+    
+          svg {
+            margin-right: 20px;
+          }
+        }
+      }
+
+      .version-grid-date {
+        width: 170px !important;
+        height: 34px;
+        border-radius: 3px !important;
+      }
+
+      .select-box .ant-select{
+        width: 170px !important;
+        height: 34px;
+        border-radius: 3px !important;
+      }
+      .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {      
+        height: 34px;       
+      }
+
+    .version-grid-date-wrapper {
+        display: flex;
+    
+        .form {
+          margin-right: 60px;
+             
+
+        }
+    
+        label {
+          display: block;
+          font-size: 12px;
+          color: #707683;
+          line-height: 20px;
+          margin-bottom: 5px;
+          text-transform: uppercase;
+          font-weight: normal;
+
+         
+        }
+        span{
+            color: red;
+            margin-left: 3px;
+        }
+      }
+}

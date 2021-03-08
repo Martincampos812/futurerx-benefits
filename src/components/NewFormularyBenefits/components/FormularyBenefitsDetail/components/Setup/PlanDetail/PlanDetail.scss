@@ -1,0 +1,134 @@
+.plan-detail-wrapper {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 10px;
+  .heading-wrapper {
+    border-bottom: 1px solid #e5e5e5;
+    h4 {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #1d54b4;
+      padding: 10px;
+    }
+  }
+
+  .fields-wrapper {
+    padding: 10px;
+    .field-group {
+      margin-left: 5px;
+      margin-bottom: 20px;
+      .labels {
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #707683;
+        margin-bottom: 5px;
+
+        .star {
+          color: red;
+          padding: 3px;
+        }
+      }
+
+      input {
+        width: 387px;
+        height: 35px;
+        border: 1px solid #c4c4c4;
+        box-sizing: border-box;
+        border-radius: 3px;
+      }
+
+      svg {
+        margin-left: 10px;
+        padding-top: 2px;
+        cursor: pointer;
+      }
+
+      .panel.header {
+        border-bottom: none;
+        font-weight: normal;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #707683;
+        padding: 0px;
+        height: 25px;
+        align-items: baseline;
+
+        .panel-tooltip {
+          margin-left: 0px;
+        }
+      }
+      .radio-icon-wrapper {
+        display: flex;
+        .reject-icon {
+          position: absolute;
+          left: 210px;
+        }
+      }
+    }
+  }
+}
+
+.reject-code-container {
+  padding: 5px 10px;
+  .reject-code-wrapper {
+    display: grid;
+    grid-template-columns: 1.6fr 3fr;
+
+    .code-wrapper {
+      h4 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1px;
+        color: #707683;
+        text-transform: uppercase;
+      }
+
+      h5 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #323c47;
+      }
+    }
+
+    .message-wrapper {
+      margin-top: 40px;
+      h4 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1px;
+        color: #707683;
+        text-transform: uppercase;
+      }
+      .container {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      input {
+        display: block;
+        width: 384px;
+        height: 105px;
+        border: 1px solid #c4c4c4;
+        box-sizing: border-box;
+        border-radius: 3px;
+      }
+
+      p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #c4c4c4;
+        font-style: italic;
+        margin-top: 10px;
+        max-width: 380px;
+      }
+    }
+  }
+}
